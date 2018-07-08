@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Leen's CV</title>
+</head>
+
+<body data-spy="scroll" data-target="#cvNavbar" data-offset="100">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Leen's CV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cvNavbar" aria-controls="cvNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="cvNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#summary">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#volunteer">Volunteer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reference">Reference</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#repos">GitHub Repos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <nav>
+                    <img src="myprofilepic.png" class="img-fluid" alt="">
+                    <div id="languages"></div>
+                    <ul id="profiles"></ul>
+                </nav>
+            </div>
+            <div class="col-9">
+                <div class="row" id="summary">
+                    <div class="col-12">
+                        <div class="heading-primary">
+                            <h1 id="basic-name"></h1>
+                        </div>
+                        <div class="head-secondary">
+                            <h2 id="basic-label"></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" id="basic-summary">
+                        <h1>Summary</h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row" id="tables">
+                    <div class="col-6">
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr>
+                                    <td>Name</td>
+                                    <td id="basics-name"></td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td id="basic-email"></td>
+                                </tr>
+                                <tr>
+                                    <td>Phone</td>
+                                    <td id="basic-phone"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-6">
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr>
+                                    <td>Address</td>
+                                    <td id="basic-address"></td>
+                                </tr>
+                                <tr>
+                                    <td>City</td>
+                                    <td id="basic-city"></td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>State, Zip</td>
+                                    <td id="basic-zip"></td>
+                                </tr>
+                            </tbody>     
+                        </table>                   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Professional Skills</h3>
+                        <div id="skills"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Experience</h3>
+                        <div id="experience"></div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Education</h3>
+                        <div id="education"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Volunteer</h3>
+                        <div id="volunteer"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Reference</h3>
+                        <div id="reference"></div>
+                    </div>
+                </div>
+
+                <div class="row" id="repos"></div>
+                <div class="row">
+                    <div class="col-12">
+                        <footer>
+                            <button class="btn btn-primary text-uppercase" onclick="javascript:window.print();">print my resume</button>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

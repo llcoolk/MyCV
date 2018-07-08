@@ -1,0 +1,92 @@
+
+/* .col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px) */
+
+body {
+    margin: 0;
+    background: #fff;
+    padding-top: 80px;
+}
+
+#navbar {
+    background: lightseagreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.8s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 2em 3em;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+#profiles {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#profiles li {
+    display: inline-block;   
+}
+
+#profiles a {
+    margin: 20px 6px;
+    display: block;
+    font-size: 24px;  
+}
+
+#languages {
+    margin: 20px 6px;
+    text-align: center;
+}
+
+#basic-summary {
+    padding: 20px;
+    column-count: 2;
+    text-align: justify;
+    column-gap: 30px;
+}
+
+#skills > div {
+    position: relative;
+}
+
+#skills .label {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border: 2px dotted #007cff;
+    color: #007cff;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 4px 10px;
+    transform: rotate(90deg);
+}
+
+#skills .progress {
+    width: 85%;
+}
+
+
+
+@media print {
+    img {
+        display: none;
+    }
+}

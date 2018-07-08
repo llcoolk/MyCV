@@ -1,0 +1,221 @@
+{
+    "basics": {
+      "name": "Leen Kim",
+      "label": "Web Developer",
+      "picture": "",
+      "email": "leenkim@alumni.usc.edu",
+      "phone": "(714) 926-8616",
+      "website": "",
+      "summary": "Solutions-driven experienced business analyst transitioning into Full-Stack Web Developing after a career pause. As a business analyst, I lead the dev team to rewrite the Warranty Claims Processing System. * Collaborated with stakeholder groups across the organization to ensure business and technology alignment. Proposed solutions meeting defined specifications and needs.",
+      "location": {
+        "address": "1500 Morning Terrace Dr",
+        "postalCode": "CA 91709",
+        "city": "Chino Hills",
+        "countryCode": "US",
+        "region": "California"
+      },
+      "profiles": [
+        {
+          "network": "facebook",
+          "username": "leenkim",
+          "url": "https://www.facebook.com/leen.kim"
+        },
+        {
+          "network": "instagram",
+          "username": "llcoolk",
+          "url": "https://www.instagram.com/ll_cool_k__"
+        },
+        {
+          "network": "linkedin",
+          "username": "leen-kim",
+          "url": "www.linkedin.com/in/leen-kim"
+        },
+        {
+          "network": "github",
+          "username": "llcoolk",
+          "url": "https://github.com/llcoolk"
+        },
+        {
+          "network": "email",
+          "url": "mailto:me@email.com"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Hyundai Motor America",
+        "position": "Business Systems Analyst",
+        "website": "https://www.hyundaiusa.com/",
+        "startDate": "April, 1987",
+        "endDate": "June, 1997",
+        "summary": "",
+        "highlights": [
+          "Lead the dev team to rewrite the Warranty Claims Processing System",
+          "Strong in DataAnalytics, Requirements Gathering & Analysis, and Project Management",
+          "Earned several promotions due to work performance ",
+          "Awarded 'Employee of the Year' "
+        ]
+      },
+      {
+        "company": "Synergy Capital Insurance",
+        "position": "Senior Field Director",
+        "website": "https://www.syncis.com/",
+        "startDate": "January, 2010",
+        "endDate": "August, 2016",
+        "summary": "",
+        "highlights": [
+          "Helped individuals and families with planning for longterm retirement plans",
+          ""
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "CityNet",
+        "position": "Homeless Outreach",
+        "website": "citynet.org/santa-ana",
+        "startDate": "2017-07-01",
+        "endDate": "2018-03-01",
+        "summary": "Served as a volunteer on City Net’s homeless outreach team, and conducted weekly outreach to identify individuals seeking housing and supportive services. ",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "organization": "Father's Kitchen",
+        "position": "Founder, Director",
+        "website": "https://www.facebook.com/loveoffatherministry/",
+        "startDate": "2017-03-01",
+        "endDate": "2018-03-01",
+        "summary": "Formed and organized volunteers and served 250+ hotmeals weekly at the Homeless tent encampment community along the Santa Ana Riverbed in OC, CA",
+        "highlights": []
+      },
+      {
+        "organization": "5Breads&2Fish",
+        "position": "Community Outreach",
+        "website": "http://5breadsand2fish.org/e-index.html",
+        "startDate": "2016-08-01",
+        "endDate": "2017-03-01",
+        "summary": "Volunteered to serve the underprivileged families in the greater LA communities 3 days a week",
+        "highlights": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Southern California",
+        "area": "Mechanical Engineering",
+        "studyType": "Bachelor of Science",
+        "startDate": "BS",
+        "endDate": "Mechanical Engineering",
+        "gpa": "",
+        "courses": [
+          "",
+          ""
+        ]
+      },
+      {
+        "institution": "Bethel School of Technology",
+        "area": "Full-Stack Web Development",
+        "studyType": "",
+        "startDate": "2018-03-19",
+        "endDate": "Current",
+        "gpa": "",
+        "courses": [
+          "HTML",
+          "CSS/SASS",
+          "Javascript",
+          "Reactjs",
+          "Angularjs",
+          "Nodejs",
+          "Cordova, Ionic",
+          "SQL/NoSQL"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "title": "",
+        "date": "",
+        "awarder": "",
+        "summary": ""
+      }
+    ],
+    "publications": [
+      {
+        "name": "",
+        "publisher": "",
+        "releaseDate": "",
+        "website": "",
+        "summary": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "Coding",
+        "list": [
+          {
+            "name": "HTML5",
+            "level": 90
+          },
+          {
+            "name": "CSS3",
+            "level": 85
+          }
+        ]
+      },
+      {
+        "name": "Design",
+        "list": [
+          {
+            "name": "Photoshop",
+            "level": 50
+          },
+          {
+            "name": "Illustrator",
+            "level": 60
+          },
+          {
+            "name": "Adobe XD",
+            "level": 80
+          }
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "code": "US",
+        "language": "English",
+        "fluency": "Fluent"
+      },
+      {
+        "code": "KR", 
+        "language": "Korean",
+        "fluency": "Fluent"
+      },
+      {
+        "code": "CN",
+        "language": "Chinese",
+        "fluency": "Not so fluent"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Sports",
+        "keywords": [
+          "Golf",
+          "Ski",
+          "Tennis"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Frank Ferrara, Executive Vice President,  Hyundai Motor America",
+        "reference": "It is my pleasure to recommend Leen, her performance working as a Business Analyst for the Service/Warranty Department proved that she will be a valuable addition to any company."
+      },
+      {
+        "name": "",
+        "reference": ""
+      }
+    ]
+  }
