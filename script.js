@@ -1,6 +1,21 @@
 
 $(function() {
 
+    // Smooth Scrolling: Smooth scrolls to an ID on the current page.
+    // To use this feature, add a link on your page that links to an ID, and add the .page-scroll class to the link itself. See the docs for more details.
+    $('.nav-link').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 140)
+        }, 800, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+    $('.navbar-toggler').on('click', function() {
+        $(this).toggleClass('active');
+    })
+
+
     function socialIcon(network) {
         switch(network) {
             case 'facebook':
@@ -60,7 +75,10 @@ $(function() {
             var list = '';
             $.each(skill.list, function(i, keyword) { 
                 list += `
+
+                <div class="keyword">
                 <p>${keyword.name}</p>
+                </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: ${keyword.level}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -85,6 +103,7 @@ $(function() {
             <li class="mb-5">
                 <h4 class="label">${edu.institution}</h4>
                 <time>${edu.startDate} - ${edu.endDate}</time>
+                <p>${edu.courses.join(", ")} </p>
             </li>
             `;
         });
@@ -99,8 +118,8 @@ $(function() {
             expOutput += `
             <li class="mb-5">
                 <h4 class="label">${exp.company}</h4>
-                <h6>${exp.position}</h6>
                 <time>${exp.startDate} - ${exp.endDate}</time>
+                <h6>${exp.position}</h6>
                 <p>${exp.highlights}</p>
             </li>
             `;
@@ -116,9 +135,10 @@ $(function() {
             volOutput += `
             <li class="mb-5">
                 <h4 class="label">${vol.organization}</h4>
+                <time>${vol.startDate} - ${vol.endDate}</time>  
                 <h6 class="label">${vol.position}</h6>
-                <time>${vol.startDate} - ${vol.endDate}</time>
                 <p>${vol.summary}</p>
+                
             </li>
             `;
         });
@@ -127,36 +147,39 @@ $(function() {
         $("#volunteer").html(volOutput);
 
         // Reference
-        // var refOutput = '<ul>';
-        // $.each( result.references, function( i, ref) {
-            
-        //     refOutput += `
-        //     <li class="mb-5">
-        //         <h4 class="label">${ref.name}</h4>
-        //         <p>${ref.reference}</p>
-        //     </li>
-        //     `;
-        // });
-
-        // refOutput += '</ul>';
-        // $("#reference").html(refOutput);
-
         var refOutput = '<ul>';
         $.each( result.references, function( i, ref) {
             
             refOutput += `
-            <div class="col-md-6">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">${ref.name}</h5>
-                    <p class="card-text">${ ref.reference}</p>
-                </div>
-            </div>
-        </div>
+            <li class="mb-5">
+                <h4 class="label">${ref.name}</h4>
+                <p>${ref.reference}</p>
+            </li>
             `;
         });
 
+        refOutput += '</ul>';
         $("#reference").html(refOutput);
+
+
+        // Reference - using cards
+
+        // var refOutput = '<ul>';
+        // $.each( result.references, function( i, ref) {
+            
+        //     refOutput += `
+        //     <div class="col-md-6">
+        //     <div class="card mb-4">
+        //         <div class="card-body">
+        //             <h5 class="card-title">${ref.name}</h5>
+        //             <p class="card-text">${ ref.reference}</p>
+        //         </div>
+        //     </div>
+        // </div>
+        //     `;
+        // });
+
+        // $("#reference").html(refOutput);
 
     });
 
@@ -169,8 +192,8 @@ $(function() {
             <div class="col-md-6">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <h5 class="card-title">${repo.name}</h5>
-                        <p class="card-text">${ repo.description ? repo.description : ''}</p>
+                        <h5 class="card-title-right">${repo.name}</h5>
+                        <p class="card-text-right">${ repo.description ? repo.description : ''}</p>
                         <a href="${repo.html_url}" class="btn btn-primary" target="_blank">See repo</a>
                     </div>
                 </div>

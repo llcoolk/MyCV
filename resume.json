@@ -6,7 +6,7 @@
       "email": "leenkim@alumni.usc.edu",
       "phone": "(714) 926-8616",
       "website": "",
-      "summary": "Solutions-driven experienced business analyst transitioning into Full-Stack Web Developing after a career pause. As a business analyst, I lead the dev team to rewrite the Warranty Claims Processing System. * Collaborated with stakeholder groups across the organization to ensure business and technology alignment. Proposed solutions meeting defined specifications and needs.",
+      "summary": "Solutions-driven experienced business analyst transitioning into Full-Stack Web Development after a career pause. As a business analyst, I lead the dev team to rewrite the Warranty Claims Processing System. Collaborated with stakeholder groups across the organization to ensure business and technology alignment. Proposed solutions meeting defined specifications and needs.",
       "location": {
         "address": "1500 Morning Terrace Dr",
         "postalCode": "CA 91709",
@@ -46,8 +46,8 @@
         "company": "Hyundai Motor America",
         "position": "Business Systems Analyst",
         "website": "https://www.hyundaiusa.com/",
-        "startDate": "April, 1987",
-        "endDate": "June, 1997",
+        "startDate": "April 1987",
+        "endDate": "June 1997",
         "summary": "",
         "highlights": [
           "Lead the dev team to rewrite the Warranty Claims Processing System",
@@ -60,8 +60,8 @@
         "company": "Synergy Capital Insurance",
         "position": "Senior Field Director",
         "website": "https://www.syncis.com/",
-        "startDate": "January, 2010",
-        "endDate": "August, 2016",
+        "startDate": "January 2010",
+        "endDate": "August 2016",
         "summary": "",
         "highlights": [
           "Helped individuals and families with planning for longterm retirement plans",
@@ -74,8 +74,8 @@
         "organization": "CityNet",
         "position": "Homeless Outreach",
         "website": "citynet.org/santa-ana",
-        "startDate": "2017-07-01",
-        "endDate": "2018-03-01",
+        "startDate": "July 2017",
+        "endDate": "July 2018",
         "summary": "Served as a volunteer on City Net’s homeless outreach team, and conducted weekly outreach to identify individuals seeking housing and supportive services. ",
         "highlights": [
           ""
@@ -85,8 +85,8 @@
         "organization": "Father's Kitchen",
         "position": "Founder, Director",
         "website": "https://www.facebook.com/loveoffatherministry/",
-        "startDate": "2017-03-01",
-        "endDate": "2018-03-01",
+        "startDate": "March 2017",
+        "endDate": "March 2018",
         "summary": "Formed and organized volunteers and served 250+ hotmeals weekly at the Homeless tent encampment community along the Santa Ana Riverbed in OC, CA",
         "highlights": []
       },
@@ -94,8 +94,8 @@
         "organization": "5Breads&2Fish",
         "position": "Community Outreach",
         "website": "http://5breadsand2fish.org/e-index.html",
-        "startDate": "2016-08-01",
-        "endDate": "2017-03-01",
+        "startDate": "August 2016",
+        "endDate": "March 2017",
         "summary": "Volunteered to serve the underprivileged families in the greater LA communities 3 days a week",
         "highlights": []
       }
@@ -103,14 +103,16 @@
     "education": [
       {
         "institution": "University of Southern California",
-        "area": "Mechanical Engineering",
-        "studyType": "Bachelor of Science",
-        "startDate": "BS",
-        "endDate": "Mechanical Engineering",
+        "area": "BS Mechanical Engineering",
+        "studyType": "",
+        "startDate": "Sepemtember 1981",
+        "endDate": "May 1985",
         "gpa": "",
         "courses": [
-          "",
-          ""
+          "CAD/CAM",
+          "Thermodynamics",
+          "Mechanisms and Mechanical Designs",
+          "Fluid Mechanics"
         ]
       },
       {
@@ -154,12 +156,16 @@
         "name": "Coding",
         "list": [
           {
-            "name": "HTML5",
-            "level": 90
+            "name": "HTML5/CSS3",
+            "level": 85
           },
           {
-            "name": "CSS3",
-            "level": 85
+            "name": "javascript",
+            "level": 70
+          },
+          {
+            "name": "SQL/NoSQL",
+            "level": 90
           }
         ]
       },
@@ -176,6 +182,23 @@
           },
           {
             "name": "Adobe XD",
+            "level": 80
+          }
+        ]
+      },
+      {
+        "name": "Assets",
+        "list": [  
+          {
+            "name": "Responsible",
+            "level": 100
+          },
+          {
+            "name": "Creative",
+            "level": 80
+          },
+          {
+            "name": "Multitasking",
             "level": 80
           }
         ]
@@ -214,8 +237,8 @@
         "reference": "It is my pleasure to recommend Leen, her performance working as a Business Analyst for the Service/Warranty Department proved that she will be a valuable addition to any company."
       },
       {
-        "name": "",
-        "reference": ""
+        "name": "Judy Oh, Former collegeue, SMC",
+        "reference": "She is an effective team member who makes valuable contributions to the achievement of department goals."
       }
     ]
   }
