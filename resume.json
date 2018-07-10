@@ -18,22 +18,22 @@
         {
           "network": "facebook",
           "username": "leenkim",
-          "url": "https://www.facebook.com/leen.kim"
+          "url": "https://www.facebook.com/"
         },
         {
           "network": "instagram",
           "username": "llcoolk",
-          "url": "https://www.instagram.com/ll_cool_k__"
+          "url": "https://www.instagram.com/"
         },
         {
           "network": "linkedin",
           "username": "leen-kim",
-          "url": "www.linkedin.com/in/leen-kim"
+          "url": "www.linkedin.com/in/"
         },
         {
           "network": "github",
           "username": "llcoolk",
-          "url": "https://github.com/llcoolk"
+          "url": "https://github.com/"
         },
         {
           "network": "email",
@@ -52,8 +52,8 @@
         "highlights": [
           "Lead the dev team to rewrite the Warranty Claims Processing System",
           "Strong in Data Analytics, Requirements Gathering & Analysis, and Project Management",
-          "Earned several promotions due to work performance ",
-          "Awarded 'Employee of the Year' "
+          "Earned several promotions due to work performance",
+          "Awarded 'Employee of the Year'"
         ]
       },
       {
@@ -119,7 +119,7 @@
         "institution": "Bethel School of Technology",
         "area": "Full-Stack Web Development",
         "studyType": "",
-        "startDate": "2018-03-19",
+        "startDate": "March 2018",
         "endDate": "Current",
         "gpa": "",
         "courses": [

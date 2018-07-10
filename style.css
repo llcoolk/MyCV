@@ -127,7 +127,6 @@ h3 {
 }
 #basic-label {   
     text-transform: uppercase;
-
     font-weight: 200;
 }
    
@@ -143,7 +142,11 @@ h3 {
     text-align: justify;
     column-gap: 1.85em;
 }
-
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 #skills > p {
     margin: 0;
 }
@@ -153,19 +156,21 @@ h3 {
 }
 
 #skills .label {
+    width: 130px;
     position: absolute;
-    right: 0;
+    right: -50px;
     top: 50%;
     border: .125em dotted #1abc9c;
     color: #1abc9c;
     text-transform: uppercase;
+    text-align: center;
     font-size: 1em;
     padding: .25em .6em;
     transform: rotate(90deg);
 }
 
 #skills .progress {
-    width: 85%;
+    width: 90%;
     border-radius: 10em;
 }
 
@@ -215,8 +220,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
-
 
     #basic-summary {
         padding: 0;
