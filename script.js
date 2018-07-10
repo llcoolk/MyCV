@@ -49,19 +49,23 @@ $(function() {
         // Social Icons
         var profilesOutput = '';
         $.each(result.basics.profiles, function( i, profile) {
-
             profilesOutput += `<li><a href="${ profile.url }">${socialIcon(profile.network)}</a></li>`
 
         });
 
         $("#profiles").html(profilesOutput);
 
-        // Languages
+        // Open new tab when social icon is clicked
+        $("#profiles").on("click", function() {
+            windows.open("${ profile.url }","_blank");
+            
+        });
+
+        // Languages()
         var langOutput = '';
         $.each(result.languages, function( i, lang) {
 
             langOutput += `<img src="http://www.countryflags.io/${lang.code}/shiny/32.png">`
-
         });
 
         $("#languages").html(langOutput);

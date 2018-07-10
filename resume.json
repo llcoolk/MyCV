@@ -28,7 +28,7 @@
         {
           "network": "linkedin",
           "username": "leen-kim",
-          "url": "www.linkedin.com/in/"
+          "url": "www.linkedin.com/in/leen-kim"
         },
         {
           "network": "github",
@@ -161,11 +161,11 @@
           },
           {
             "name": "javascript",
-            "level": 70
+            "level": 65
           },
           {
             "name": "SQL/NoSQL",
-            "level": 90
+            "level": 85
           }
         ]
       },
@@ -182,7 +182,7 @@
           },
           {
             "name": "Project Management",
-            "level": 85
+            "level": 80
           }
         ]
       },
@@ -191,11 +191,11 @@
         "list": [  
           {
             "name": "Adaptability",
-            "level": 95
+            "level": 90
           },
           {
             "name": "Management",
-            "level": 90
+            "level": 85
           },
           {
             "name": "Teamwork",
