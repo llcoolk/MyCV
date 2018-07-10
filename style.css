@@ -198,6 +198,12 @@ h4 {
     background-color: #16a085;
     border-color: #16a085;
 }
+.card-body {
+    background-color: #55efc4;
+    /* -ms-flex: 1 1 auto; */
+    /* flex: 1 1 auto;
+    padding: 1.25rem; */
+}
 
 footer {
     float: right;
