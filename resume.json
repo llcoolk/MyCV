@@ -51,7 +51,7 @@
         "summary": "",
         "highlights": [
           "Lead the dev team to rewrite the Warranty Claims Processing System",
-          "Strong in DataAnalytics, Requirements Gathering & Analysis, and Project Management",
+          "Strong in Data Analytics, Requirements Gathering & Analysis, and Project Management",
           "Earned several promotions due to work performance ",
           "Awarded 'Employee of the Year' "
         ]
@@ -157,7 +157,7 @@
         "list": [
           {
             "name": "HTML5/CSS3",
-            "level": 85
+            "level": 75
           },
           {
             "name": "javascript",
@@ -170,36 +170,40 @@
         ]
       },
       {
-        "name": "Design",
-        "list": [
+        "name": "Hard Skills",
+        "list": [  
           {
-            "name": "Photoshop",
-            "level": 50
+            "name": "Data Analysis",
+            "level": 85
           },
           {
-            "name": "Illustrator",
-            "level": 60
-          },
-          {
-            "name": "Adobe XD",
+            "name": "Software Programs",
             "level": 80
+          },
+          {
+            "name": "Project Management",
+            "level": 85
           }
         ]
       },
       {
-        "name": "Assets",
+        "name": "Soft Skills",
         "list": [  
           {
-            "name": "Responsible",
-            "level": 100
+            "name": "Adaptability",
+            "level": 95
           },
           {
-            "name": "Creative",
-            "level": 80
+            "name": "Management",
+            "level": 90
           },
           {
-            "name": "Multitasking",
-            "level": 80
+            "name": "Teamwork",
+            "level": 85
+          },
+          {
+            "name": "Problem-solving",
+            "level": 85
           }
         ]
       }

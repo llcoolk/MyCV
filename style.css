@@ -75,7 +75,7 @@ body {
     font-size: 1.2em;
     display: block;
     padding: 0 15px !important;
-    line-height: 80px;
+    line-height: 64px;
 }
 .nav-link.active {
     background-color: #16a085;

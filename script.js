@@ -49,7 +49,6 @@ $(function() {
         // Social Icons
         var profilesOutput = '';
         $.each(result.basics.profiles, function( i, profile) {
-            console.log(profile)
 
             profilesOutput += `<li><a href="${ profile.url }">${socialIcon(profile.network)}</a></li>`
 
