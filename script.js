@@ -56,10 +56,10 @@ $(function() {
         $("#profiles").html(profilesOutput);
 
         // Open new tab when social icon is clicked
-        $("#profiles").on("click", function() {
-            windows.open("${ profile.url }","_blank");
+        // $("#profiles").on("click", function() {
+        //     windows.open("${ profile.url }","_blank");
             
-        });
+        // });
 
         // Languages()
         var langOutput = '';
