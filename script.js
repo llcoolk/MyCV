@@ -32,12 +32,12 @@ $(function() {
     }
 
     $.getJSON('./resume.json', function( result) {
-   
+
         // Summary
         $("#basic-name").html(result.basics.name);
         $("#basic-label").html(result.basics.label);
         $("#basic-summary").html(result.basics.summary);
-       
+
         // Tables
         $("#basics-name").html(result.basics.name);
         $("#basic-email").html(result.basics.email);
@@ -45,7 +45,7 @@ $(function() {
         $("#basic-address").html(result.basics.location.address);
         $("#basic-city").html(result.basics.location.city);
         $("#basic-zip").html(result.basics.location.postalCode);
-        
+
         // Social Icons
         var profilesOutput = '';
         $.each(result.basics.profiles, function( i, profile) {
@@ -58,7 +58,7 @@ $(function() {
         // Open new tab when social icon is clicked
         // $("#profiles").on("click", function() {
         //     windows.open("${ profile.url }","_blank");
-            
+
         // });
 
         // Languages()
@@ -74,9 +74,9 @@ $(function() {
         // Skills
         var skillsOutput = '';
         $.each( result.skills, function( i, skill) {
-            
+
             var list = '';
-            $.each(skill.list, function(i, keyword) { 
+            $.each(skill.list, function(i, keyword) {
                 list += `
 
                 <div class="keyword">
@@ -101,7 +101,7 @@ $(function() {
         // Education
         var eduOutput = '<ul>';
         $.each( result.education, function( i, edu) {
-            
+
             eduOutput += `
             <li class="mb-5">
                 <h4 class="label">${edu.institution}</h4>
@@ -110,14 +110,14 @@ $(function() {
             </li>
             `;
         });
-        
+
         eduOutput += '</ul>';
         $("#education").html(eduOutput);
 
         // Work Experience
         var expOutput = '<ul>';
         $.each( result.work, function( i, exp) {
-            
+
             expOutput += `
             <li class="mb-5">
                 <h4 class="label">${exp.company}</h4>
@@ -127,32 +127,32 @@ $(function() {
             </li>
             `;
         });
-        
+
         expOutput += '</ul>';
         $("#experience").html(expOutput);
 
         //Volunteering
         var volOutput = '<ul>';
         $.each( result.volunteer, function( i, vol) {
-            
+
             volOutput += `
             <li class="mb-5">
                 <h4 class="label">${vol.organization}</h4>
-                <time>${vol.startDate} - ${vol.endDate}</time>  
+                <time>${vol.startDate} - ${vol.endDate}</time>
                 <h6 class="label">${vol.position}</h6>
                 <p>${vol.summary}</p>
-                
+
             </li>
             `;
         });
-        
+
         volOutput += '</ul>';
         $("#volunteer").html(volOutput);
 
         // Reference
         var refOutput = '<ul>';
         $.each( result.references, function( i, ref) {
-            
+
             refOutput += `
             <li class="mb-5">
                 <h4 class="label">${ref.name}</h4>
@@ -169,7 +169,7 @@ $(function() {
 
         // var refOutput = '<ul>';
         // $.each( result.references, function( i, ref) {
-            
+
         //     refOutput += `
         //     <div class="col-md-6">
         //     <div class="card mb-4">
@@ -186,7 +186,7 @@ $(function() {
 
     });
 
-    // Github Repos    
+    // Github Repos
     $.getJSON('https://api.github.com/users/llcoolk/repos', function(repos) {
         var reposOutput = '';
         $.each(repos, function(i, repo) {
@@ -197,7 +197,7 @@ $(function() {
                     <div class="card-body">
                         <h5 class="card-title-right">${repo.name}</h5>
                         <p class="card-text-right">${ repo.description ? repo.description : ''}</p>
-                        <a href="${repo.html_url}" class="btn btn-primary" target="_blank">See repo</a>
+                        <a href="${repo.html_url}" class="btn btn-info" target="_blank">See repo</a>
                     </div>
                 </div>
             </div>
