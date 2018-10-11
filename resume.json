@@ -14,8 +14,7 @@
       "countryCode": "US",
       "region": "California"
     },
-    "profiles": [
-      {
+    "profiles": [{
         "network": "facebook",
         "username": "leenkim",
         "url": "https://www.facebook.com/leen.kim"
@@ -41,8 +40,7 @@
       }
     ]
   },
-  "work": [
-    {
+  "work": [{
       "company": "Hyundai Motor America",
       "position": "Business Systems Analyst",
       "website": "https://www.hyundaiusa.com/",
@@ -64,13 +62,11 @@
       "endDate": "August 2016",
       "summary": "",
       "highlights": [
-        "Helped individuals and families with planning for longterm retirement plans",
-        ""
+        "Helped individuals and families with finding right longterm retirement plans and life insurance"
       ]
     }
   ],
-  "volunteer": [
-    {
+  "volunteer": [{
       "organization": "CityNet",
       "position": "Homeless Outreach",
       "website": "citynet.org/santa-ana",
@@ -98,8 +94,7 @@
       "highlights": []
     }
   ],
-  "education": [
-    {
+  "education": [{
       "institution": "University of Southern California",
       "area": "BS Mechanical Engineering",
       "studyType": "",
@@ -114,7 +109,7 @@
       ]
     },
     {
-      "institution": "Bethel School of Technology, Woz U",
+      "institution": "Bethel School of Technology/ Woz-U",
       "area": "Full-Stack Web Development",
       "studyType": "",
       "startDate": "March 2018",
@@ -132,28 +127,22 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
-    }
-  ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "website": "",
-      "summary": ""
-    }
-  ],
-  "skills": [
-    {
+  "awards": [{
+    "title": "",
+    "date": "",
+    "awarder": "",
+    "summary": ""
+  }],
+  "publications": [{
+    "name": "",
+    "publisher": "",
+    "releaseDate": "",
+    "website": "",
+    "summary": ""
+  }],
+  "skills": [{
       "name": "Coding",
-      "list": [
-        {
+      "list": [{
           "name": "HTML5/CSS3",
           "level": 85
         },
@@ -173,8 +162,7 @@
     },
     {
       "name": "Hard Skills",
-      "list": [
-        {
+      "list": [{
           "name": "Data Analysis",
           "level": 85
         },
@@ -190,8 +178,7 @@
     },
     {
       "name": "Soft Skills",
-      "list": [
-        {
+      "list": [{
           "name": "Adaptability",
           "level": 90
         },
@@ -205,13 +192,12 @@
         },
         {
           "name": "Problem-solving",
-          "level": 95
+          "level": 90
         }
       ]
     }
   ],
-  "languages": [
-    {
+  "languages": [{
       "code": "US",
       "language": "English",
       "fluency": "Fluent"
@@ -227,14 +213,11 @@
       "fluency": "Somewhat fluent"
     }
   ],
-  "interests": [
-    {
-      "name": "Sports",
-      "keywords": ["Golf", "Ski", "Tennis"]
-    }
-  ],
-  "references": [
-    {
+  "interests": [{
+    "name": "Sports",
+    "keywords": ["Golf", "Ski", "Tennis"]
+  }],
+  "references": [{
       "name": "Frank Ferrara, Executive Vice President,  Hyundai Motor America",
       "reference": "It is my pleasure to recommend Leen, her performance working as a Business Analyst for the Service/Warranty Department proved that she will be a valuable addition to any company."
     },
