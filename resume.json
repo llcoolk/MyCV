@@ -111,13 +111,13 @@
     {
       "institution": "Bethel School of Technology/ Woz-U",
       "area": "Full-Stack Web Development",
-      "studyType": "",
+      "studyType": "https//mentor4me.herokuapp.com",
       "startDate": "March 2018",
       "endDate": "October 2018",
       "gpa": "",
       "courses": [
-        "HTML",
-        "CSS/SASS",
+        "HTML5",
+        "CSS3",
         "Javascript",
         "Reactjs",
         "Angularjs",
@@ -144,15 +144,15 @@
       "name": "Coding",
       "list": [{
           "name": "HTML5/CSS3",
-          "level": 85
-        },
-        {
-          "name": "JavaScript",
           "level": 80
         },
         {
+          "name": "JavaScript",
+          "level": 75
+        },
+        {
           "name": "Nodejs",
-          "level": 85
+          "level": 75
         },
         {
           "name": "Reactjs",
@@ -172,7 +172,7 @@
         },
         {
           "name": "Project Management",
-          "level": 90
+          "level": 85
         }
       ]
     },
@@ -192,7 +192,7 @@
         },
         {
           "name": "Problem-solving",
-          "level": 90
+          "level": 80
         }
       ]
     }
