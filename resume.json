@@ -148,11 +148,11 @@
         },
         {
           "name": "JavaScript",
-          "level": 75
+          "level": 70
         },
         {
           "name": "Nodejs",
-          "level": 75
+          "level": 70
         },
         {
           "name": "Reactjs",
@@ -164,7 +164,7 @@
       "name": "Hard Skills",
       "list": [{
           "name": "Data Analysis",
-          "level": 85
+          "level": 75
         },
         {
           "name": "Software Development",
@@ -192,7 +192,7 @@
         },
         {
           "name": "Problem-solving",
-          "level": 80
+          "level": 85
         }
       ]
     }
