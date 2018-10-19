@@ -8,16 +8,15 @@
     "website": "",
     "summary": "Solutions-driven experienced business analyst transitioned into FullStack Web Development after a career pause. As a business systems analyst, I lead the dev team to rewrite the Warranty Claims Processing System for Hyundai Motor America. Collaborated with stakeholder groups across the organization to ensure business and technology alignment. Proposed solutions meeting defined specifications and needs.",
     "location": {
-      "address": "1500 Morning Terrace Dr",
-      "postalCode": "CA 91709",
-      "city": "Chino Hills",
+
+      "postalCode": "CA",
+      "city": "Orange County",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [{
-        "network": "facebook",
-        "username": "leenkim",
-        "url": "https://www.facebook.com/leen.kim"
+        "network": "email",
+        "url": "mailto:leenkim@alumni.usc.edu"
       },
       {
         "network": "instagram",
@@ -35,8 +34,8 @@
         "url": "https://github.com/llcoolk"
       },
       {
-        "network": "email",
-        "url": "mailto:leenkim@alumni.usc.edu"
+        "network": "project",
+        "url": "https://mentor4me.herokuapp.com"
       }
     ]
   },
@@ -48,7 +47,7 @@
       "endDate": "June 1997",
       "summary": "",
       "highlights": [
-        "Lead the dev team to rewrite the Warranty Claims Processing System",
+        "Led the dev team and rewrote the Warranty Claims Processing System",
         "Strong in Data Analytics, Requirements Gathering & Analysis, and Project Management",
         "Earned several promotions due to work performance",
         "Awarded 'Employee of the Year'"
@@ -62,7 +61,7 @@
       "endDate": "August 2016",
       "summary": "",
       "highlights": [
-        "Helped individuals and families with finding right longterm retirement plans and life insurance"
+        "Helped individuals and families with finding right long term retirement plans and life insurance"
       ]
     }
   ],
@@ -90,7 +89,7 @@
       "website": "http://5breadsand2fish.org/e-index.html",
       "startDate": "August 2016",
       "endDate": "March 2017",
-      "summary": "Volunteered to serve the underprivileged families in the greater LA communities 3 days a week",
+      "summary": "Sorting, cooking, and distributing food to homeless and underprivileged families in the greater LA communities several days a week",
       "highlights": []
     }
   ],
@@ -102,10 +101,12 @@
       "endDate": "May 1985",
       "gpa": "",
       "courses": [
-        "CAD/CAM",
+        "Statics",
+        "Dynamics",
         "Thermodynamics",
         "Mechanisms and Mechanical Designs",
-        "Fluid Mechanics"
+        "Fluid Mechanics",
+        "CAD/CAM"
       ]
     },
     {
@@ -122,8 +123,11 @@
         "Reactjs",
         "Angularjs",
         "Nodejs",
-        "Cordova, Ionic",
-        "SQL/NoSQL"
+        "Ionic",
+        "SQL/NoSQL",
+        "MySQL",
+        "MongoDB",
+        "Heroku"
       ]
     }
   ],
@@ -144,7 +148,7 @@
       "name": "Coding",
       "list": [{
           "name": "HTML5/CSS3",
-          "level": 80
+          "level": 75
         },
         {
           "name": "JavaScript",
@@ -152,11 +156,11 @@
         },
         {
           "name": "Nodejs",
-          "level": 70
+          "level": 75
         },
         {
           "name": "Reactjs",
-          "level": 75
+          "level": 68
         }
       ]
     },
@@ -164,7 +168,7 @@
       "name": "Hard Skills",
       "list": [{
           "name": "Data Analysis",
-          "level": 75
+          "level": 80
         },
         {
           "name": "Software Development",
@@ -172,7 +176,7 @@
         },
         {
           "name": "Project Management",
-          "level": 85
+          "level": 83
         }
       ]
     },
@@ -184,11 +188,11 @@
         },
         {
           "name": "Management",
-          "level": 85
+          "level": 83
         },
         {
           "name": "Teamwork",
-          "level": 85
+          "level": 86
         },
         {
           "name": "Problem-solving",
