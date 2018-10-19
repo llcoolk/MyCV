@@ -8,13 +8,13 @@
     "website": "",
     "summary": "Solutions-driven experienced business analyst transitioned into FullStack Web Development after a career pause. As a business systems analyst, I lead the dev team to rewrite the Warranty Claims Processing System for Hyundai Motor America. Collaborated with stakeholder groups across the organization to ensure business and technology alignment. Proposed solutions meeting defined specifications and needs.",
     "location": {
-
       "postalCode": "CA",
       "city": "Orange County",
       "countryCode": "US",
       "region": "California"
     },
-    "profiles": [{
+    "profiles": [
+      {
         "network": "email",
         "url": "mailto:leenkim@alumni.usc.edu"
       },
@@ -39,7 +39,8 @@
       }
     ]
   },
-  "work": [{
+  "work": [
+    {
       "company": "Hyundai Motor America",
       "position": "Business Systems Analyst",
       "website": "https://www.hyundaiusa.com/",
@@ -65,7 +66,8 @@
       ]
     }
   ],
-  "volunteer": [{
+  "volunteer": [
+    {
       "organization": "CityNet",
       "position": "Homeless Outreach",
       "website": "citynet.org/santa-ana",
@@ -93,7 +95,8 @@
       "highlights": []
     }
   ],
-  "education": [{
+  "education": [
+    {
       "institution": "University of Southern California",
       "area": "BS Mechanical Engineering",
       "studyType": "",
@@ -131,22 +134,28 @@
       ]
     }
   ],
-  "awards": [{
-    "title": "",
-    "date": "",
-    "awarder": "",
-    "summary": ""
-  }],
-  "publications": [{
-    "name": "",
-    "publisher": "",
-    "releaseDate": "",
-    "website": "",
-    "summary": ""
-  }],
-  "skills": [{
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
       "name": "Coding",
-      "list": [{
+      "list": [
+        {
           "name": "HTML5/CSS3",
           "level": 75
         },
@@ -166,7 +175,8 @@
     },
     {
       "name": "Hard Skills",
-      "list": [{
+      "list": [
+        {
           "name": "Data Analysis",
           "level": 80
         },
@@ -182,7 +192,8 @@
     },
     {
       "name": "Soft Skills",
-      "list": [{
+      "list": [
+        {
           "name": "Adaptability",
           "level": 90
         },
@@ -196,12 +207,13 @@
         },
         {
           "name": "Problem-solving",
-          "level": 85
+          "level": 90
         }
       ]
     }
   ],
-  "languages": [{
+  "languages": [
+    {
       "code": "US",
       "language": "English",
       "fluency": "Fluent"
@@ -217,11 +229,14 @@
       "fluency": "Somewhat fluent"
     }
   ],
-  "interests": [{
-    "name": "Sports",
-    "keywords": ["Golf", "Ski", "Tennis"]
-  }],
-  "references": [{
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": ["Golf", "Ski", "Tennis"]
+    }
+  ],
+  "references": [
+    {
       "name": "Frank Ferrara, Executive Vice President,  Hyundai Motor America",
       "reference": "It is my pleasure to recommend Leen, her performance working as a Business Analyst for the Service/Warranty Department proved that she will be a valuable addition to any company."
     },
